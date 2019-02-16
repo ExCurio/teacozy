@@ -22,7 +22,7 @@ header {
 	height: 69px;
 	width: 100%;
 	background-color: black;
-	border: 1px solid seashell;
+	border-bottom: 1px solid seashell;
 	top: 0;
 }
 
@@ -54,7 +54,7 @@ nav span {
 	align-items: center;
 	margin-top: 0px;
 	margin-right: auto;
-	margin-bottom: 80px;
+	margin-bottom: 0px;
 	margin-left: auto;
 	padding-top: 69px;
 }
@@ -91,12 +91,24 @@ nav span {
 	align-items: center;
 	flex-direction: column;
 	width: 1000px;
+	margin-top: 75px;
 }
 
 .teas {
+	/*display: flex;*/
+}
+
+.teas-row1 {
 	display: flex;
-	justify-content: space-around;
-	flex-wrap: wrap;
+}
+
+.teas-row2 {
+	display: flex;
+}
+
+.tea {
+	margin: 0 15px;
+	padding: 0;
 }
 
 .tea-images {
@@ -104,44 +116,65 @@ nav span {
 	width: 300px;
 }
 
-.tea-name {
+.tea-name h4 {
 	padding: 0;
-	margin: 0;
+	margin-top: 10px;
 }
 
-/*.fall-berry {
-	background-image: url(../images/berry.jpg);
-	height: 200px;
-	width: 300px;
+.locations-main {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: 500px;
+	margin-top: 50px;
 }
 
-.spiced-rum {
-	background-image: url(../images/rum.jpg);
-	height: 200px;
-	width: 300px;
+.locations-image {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/locations.jpg);
+	width: 1200px;
+	height: 500px;
 }
 
-.seasonal-donuts {
-	background-image: url(../images/donut.jpg);
-	height: 200px;
-	width: 300px;
+.location-text {
+	padding-bottom: 0;
+	margin-bottom: 0;
 }
 
-.myrtle-ave {
-	background-image: url(../images/myrtle.jpg);
-	height: 200px;
-	width: 300px;
+.locations {
+	display: flex;
 }
 
-.bedford-bizzare {
-	background-image: url(../images/bedford.jpg);
-	height: 200px;
-	width: 300px;
-}*/
 
-div {
+.location {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
+	width: 300px;
+	height: 300px;
+	margin-left: 20px;
+	margin-right: 20px;
+	opacity: 1;
+}
+
+
+.contact {
+	height: 200px;
+}
+
+footer {
+	text-align: left;
+	margin-left: 20px;
+}
+
+/*div {
 	border: 1px solid white;
-}
+}*/
 
 
 
