@@ -16,9 +16,10 @@ header {
 	justify-content: space-between;
 	align-items: center;
 	position: fixed;
-	z-index: 1;
+	z-index: 5;
 	height: 69px;
 	width: 100%;
+	background-color: black;
 	border-bottom: 1px solid seashell;
 }
 
@@ -44,18 +45,37 @@ nav span {
 
 
 content {
+	display: flex;
+	padding-top: 69px;
+	margin-top: 69px;
 
 }
 
 .mission {
-	padding-top: 69px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
 }
 
-.mission img {
+.image-content.mission-image {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(../images/background.jpg);
+	width: 1200px;
 	height: 700px;
 }
 
+.mission-text {
+	background-color: black;
+	width: 1200px;
+}
 
+.mission-text h4 {
+	margin-left: 75px;
+	margin-right: 75px;
+}
 
 
 
