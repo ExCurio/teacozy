@@ -5,6 +5,8 @@ body {
 	background-color: black;
 	opacity: 0.9;
 	text-align: center;
+	padding: 0;
+	margin: 0;
 }
 
 
@@ -20,7 +22,8 @@ header {
 	height: 69px;
 	width: 100%;
 	background-color: black;
-	border-bottom: 1px solid seashell;
+	border: 1px solid seashell;
+	top: 0;
 }
 
 .logo img {
@@ -35,7 +38,7 @@ nav a {
 
 nav span {
 	display: inline-block;
-	padding: 20px 10px;
+	padding: 0 10px;
 	margin-right: 10px;
 }
 
@@ -44,11 +47,16 @@ nav span {
 /*Content Section*/
 
 
-content {
+.content {
 	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 80px;
+	margin-left: auto;
 	padding-top: 69px;
-	margin-top: 69px;
-
 }
 
 .mission {
@@ -56,9 +64,10 @@ content {
 	align-items: center;
 	justify-content: center;
 	width: 100%;
+	height: 700px;
 }
 
-.image-content.mission-image {
+.mission-image {
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -77,8 +86,79 @@ content {
 	margin-right: 75px;
 }
 
+.tea-month {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 1000px;
+}
 
+.teas {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.tea-images {
+	height: 200px;
+	width: 300px;
+}
+
+.tea-name {
+	padding: 0;
+	margin: 0;
+}
+
+/*.fall-berry {
+	background-image: url(../images/berry.jpg);
+	height: 200px;
+	width: 300px;
+}
+
+.spiced-rum {
+	background-image: url(../images/rum.jpg);
+	height: 200px;
+	width: 300px;
+}
+
+.seasonal-donuts {
+	background-image: url(../images/donut.jpg);
+	height: 200px;
+	width: 300px;
+}
+
+.myrtle-ave {
+	background-image: url(../images/myrtle.jpg);
+	height: 200px;
+	width: 300px;
+}
+
+.bedford-bizzare {
+	background-image: url(../images/bedford.jpg);
+	height: 200px;
+	width: 300px;
+}*/
 
 div {
 	border: 1px solid white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
