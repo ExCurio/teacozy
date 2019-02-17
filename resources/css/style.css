@@ -59,6 +59,9 @@ nav span {
 	padding-top: 69px;
 }
 
+
+/*Mission Section*/
+
 #mission {
 	display: flex;
 	align-items: center;
@@ -87,6 +90,9 @@ nav span {
 	margin-right: 75px;
 }
 
+
+/*Teas Section*/
+
 #tea-month {
 	display: flex;
 	align-items: center;
@@ -95,9 +101,6 @@ nav span {
 	margin-top: 75px;
 }
 
-.teas {
-	/*display: flex;*/
-}
 
 .teas-row1 {
 	display: flex;
@@ -121,6 +124,9 @@ nav span {
 	padding: 0;
 	margin-top: 10px;
 }
+
+
+/*Locations Section*/
 
 #locations-main {
 	display: flex;
@@ -165,18 +171,20 @@ nav span {
 }
 
 
+/*Content Section*/
+
 .contact {
 	height: 200px;
 }
+
+
+/*Footer Section*/
 
 footer {
 	text-align: left;
 	margin-left: 20px;
 }
 
-/*div {
-	border: 1px solid white;
-}*/
 
 
 
