@@ -147,6 +147,12 @@ nav span {
 	height: 500px;
 }
 
+.locations-image h2 {
+	padding: 0;
+	margin-bottom: 15px;
+	margin-top: 61px;
+}
+
 .location-text {
 	padding-bottom: 0;
 	margin-bottom: 0;
@@ -154,6 +160,10 @@ nav span {
 
 .locations {
 	display: flex;
+	margin-bottom: 100px;
+	padding-bottom: 0;
+	margin-top: 0;
+	padding-top: 0;
 }
 
 
