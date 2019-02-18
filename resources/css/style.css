@@ -12,7 +12,6 @@ body {
 
 /*Header Section*/
 
-
 header {
 	display: flex;
 	justify-content: space-between;
@@ -46,7 +45,6 @@ nav span {
 
 /*Content Section*/
 
-
 .content {
 	display: flex;
 	flex-direction: column;
@@ -74,8 +72,9 @@ nav span {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	background-image: url(../images/background.jpg);
-	background-position: center;
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	width: 1200px;
 	height: 700px;
 }
@@ -115,7 +114,7 @@ nav span {
 	padding: 0;
 }
 
-.tea-images {
+.tea-image {
 	height: 200px;
 	width: 300px;
 }
@@ -141,8 +140,9 @@ nav span {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	background-image: url(../images/locations.jpg);
-	background-position: center;
+	background-image: url("../images/locations.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
 	width: 1200px;
 	height: 500px;
 }
@@ -181,7 +181,7 @@ nav span {
 }
 
 
-/*Content Section*/
+/*Contact Section*/
 
 .contact {
 	height: 200px;
@@ -194,24 +194,4 @@ footer {
 	text-align: left;
 	margin-left: 20px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
